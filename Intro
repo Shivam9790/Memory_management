@@ -1,0 +1,9 @@
+Memory cell is an electronic circuit that strores one-byte of binary information. Each memory cell has a unique address.
+Executed programs are stored in resident memory. Turbo C 3.0 stores 1MB of data in RAM. compiler decides the memnory address of the variables.
+segemntation is the division of 1MB RAM size into 16 parts which are called segments. Each segment is of 64KB. 
+A pointer is a variable that stores memory address of any variable it is created *operator.
+The segment address, located within one of the segment registers, defines the beginning address of any 64K-byte memory segment. 
+The offset address selects any location within the 64K byte memory segment. Segments in the real mode always have a length of 64K bytes.
+A data segment is a portion of the virtual address space of a program, which contains the global variables and static variables that are initialized by the programmer. 
+Stack memory is a memory usage mechanism that allows the system memory to be used as temporary data storage that behaves as a first-in-last-out buffer
+Heap memory is used by all the parts of the application whereas stack memory is used only by one thread of execution. 
